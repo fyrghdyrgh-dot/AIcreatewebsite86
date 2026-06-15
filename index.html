@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>越南服务器租用 | 越南云主机 | 东南亚出海原生IP - 1BGP</title>
+    <meta name="description" content="提供越南顶级机房服务器租用，直连VNPT、Viettel、FPT三大运营商，原生IP解锁TikTok、Shopee本土业务。超低延迟，稳定可靠的东南亚出海基建。">
+    <meta name="keywords" content="越南服务器, 越南云服务器, 越南物理机, VNPT服务器, 越南原生IP, TikTok越南节点">
+    
+    <!-- 引入 Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- 引入图标库 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- 自定义配置 -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#dc2626', // 越南红 (具有国家特色且有商业冲击力)
+                        secondary: '#0369a1', // 商务科技蓝
+                        darkbg: '#111827',
+                        lightbg: '#f8fafc'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        /* 浅色网格背景图案 */
+        .bg-grid-pattern {
+            background-image: radial-gradient(#e2e8f0 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+    </style>
+</head>
+<body class="bg-white font-sans text-gray-800">
+
+    <!-- 顶部信息栏 (浅色版) -->
+    <div class="bg-gray-100 text-gray-600 text-sm py-2 border-b border-gray-200">
+        <div class="container mx-auto px-4 flex flex-wrap justify-between items-center max-w-7xl">
+            <div class="flex space-x-6 items-center font-medium">
+                <span><i class="fa-solid fa-phone mr-2 text-primary"></i>+1 (256) 7331188</span>
+                <span><i class="fa-regular fa-envelope mr-2 text-primary"></i>support@1bgp.com</span>
+            </div>
+            <div class="flex space-x-4 mt-2 sm:mt-0 items-center">
+                <a href="https://t.me/twbyte_tom" target="_blank" class="hover:text-secondary transition font-medium"><i class="fa-brands fa-telegram mr-1 text-secondary"></i>在线客服</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 主导航栏 (亮色商务版) -->
+    <header class="bg-white text-gray-800 sticky top-0 z-50 shadow-sm border-b border-gray-100">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center max-w-7xl">
+            <!-- Logo区 (黑色文字) -->
+            <a href="https://www.1bgp.com/" class="text-3xl font-extrabold tracking-wider text-gray-900 mr-8 flex items-center">
+                <span class="text-primary mr-1">1</span>BGP
+            </a>
+            
+            <!-- 导航链接 -->
+            <nav class="hidden md:flex flex-1 justify-center space-x-12 font-bold text-[15px]">
+                <a href="https://www.1bgp.com/" class="text-primary relative after:content-[''] after:absolute after:-bottom-2 after:left-0 after:w-full after:h-0.5 after:bg-primary">首页</a>
+                <a href="https://www.1bgp.com/index/server/" class="hover:text-primary transition relative group">
+                    云服务器
+                    <span class="absolute -bottom-2 left-0 w-0 h-0.5 bg-primary transition-all group-hover:w-full"></span>
+                </a>
+                <a href="https://www.1bgp.com/index/server/" class="hover:text-primary transition relative group">
+                    越南裸金属
+                    <span class="absolute -bottom-2 left-0 w-0 h-0.5 bg-primary transition-all group-hover:w-full"></span>
+                </a>
+                <a href="https://www.1bgp.com/index/server/" class="hover:text-primary transition relative group">
+                    高防服务器
+                    <span class="absolute -bottom-2 left-0 w-0 h-0.5 bg-primary transition-all group-hover:w-full"></span>
+                </a>
+                <a href="https://www.1bgp.com/index/server/" class="hover:text-primary transition relative group">
+                    特价专区
+                    <span class="absolute -top-3 -right-6 bg-red-600 text-white text-[10px] px-1.5 py-0.5 rounded animate-pulse">HOT</span>
+                    <span class="absolute -bottom-2 left-0 w-0 h-0.5 bg-primary transition-all group-hover:w-full"></span>
+                </a>
+            </nav>
+            
+            <!-- 登录/注册/CTA按钮区 -->
+            <div class="hidden md:flex items-center space-x-3 ml-8">
+                <a href="https://www.1bgp.com/user/index/login.html" class="text-gray-600 hover:text-primary px-3 py-2 font-bold transition">
+                    登录
+                </a>
+                <a href="https://www.1bgp.com/user/index/register.html" class="bg-transparent border border-gray-300 hover:border-primary text-gray-700 hover:text-primary px-4 py-1.5 rounded font-bold transition">
+                    注册
+                </a>
+                <a href="https://www.1bgp.com/index/server/" class="bg-secondary hover:bg-blue-700 text-white px-5 py-1.5 rounded font-bold transition shadow-md shadow-blue-500/20 ml-2">
+                    控制台
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 英雄区域 (左右图文拆分版 - 明亮商务风) -->
+    <section class="relative bg-gradient-to-br from-blue-50 via-white to-gray-50 pt-20 pb-28 overflow-hidden">
+        <!-- 装饰性背景圆 -->
+        <div class="absolute top-0 right-0 -translate-y-12 translate-x-1/3 w-96 h-96 bg-red-50 rounded-full blur-3xl opacity-60"></div>
+        <div class="absolute bottom-0 left-0 translate-y-1/3 -translate-x-1/3 w-96 h-96 bg-blue-50 rounded-full blur-3xl opacity-60"></div>
+        
+        <div class="container mx-auto px-4 max-w-7xl relative z-10">
+            <div class="flex flex-col lg:flex-row items-center">
+                <!-- 左侧文案 -->
+                <div class="lg:w-1/2 pr-0 lg:pr-12 text-center lg:text-left">
+                    <div class="inline-block bg-blue-100 text-secondary text-sm font-bold px-4 py-1.5 rounded-full mb-6">
+                        <i class="fa-solid fa-bolt mr-2"></i>掘金东南亚新蓝海
+                    </div>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 mb-6 leading-tight">
+                        越南<span class="text-primary">顶级骨干网</span><br>直连云服务器
+                    </h1>
+                    <p class="text-lg text-gray-600 mb-8 leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                        深度接入 VNPT、Viettel、FPT 越南三大运营商。原生 IP 完美解锁 TikTok/Shopee 本土店，超低延迟助力跨境电商与游戏出海无缝落地。
+                    </p>
+                    <div class="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
+                        <a href="https://www.1bgp.com/index/server/" class="bg-primary hover:bg-red-700 text-white px-8 py-3.5 rounded-md text-lg font-bold transition shadow-lg shadow-red-500/30 flex items-center justify-center">
+                            查看特价套餐 <i class="fa-solid fa-arrow-right ml-2"></i>
+                        </a>
+                        <a href="https://t.me/twbyte_tom" target="_blank" class="bg-white border-2 border-gray-200 hover:border-secondary hover:text-secondary text-gray-700 px-8 py-3.5 rounded-md text-lg font-bold transition flex items-center justify-center">
+                            免费测试 IP
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- 右侧配图 -->
+                <div class="lg:w-1/2 mt-16 lg:mt-0 relative">
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Data Center" class="rounded-2xl shadow-2xl relative z-10 border-4 border-white">
+                    <!-- 浮动数据标签 -->
+                    <div class="absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-xl z-20 border border-gray-100 flex items-center animate-bounce" style="animation-duration: 3s;">
+                        <div class="bg-green-100 text-green-600 w-12 h-12 rounded-full flex items-center justify-center text-xl mr-4">
+                            <i class="fa-solid fa-wifi"></i>
+                        </div>
+                        <div>
+                            <div class="text-xs text-gray-500 font-bold uppercase">南宁直连延迟</div>
+                            <div class="text-xl font-extrabold text-gray-900">≈ 28 ms</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 数据实力横幅 (白底清爽版) -->
+    <section class="border-y border-gray-200 bg-white py-10">
+        <div class="container mx-auto px-4 max-w-7xl">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 divide-x divide-gray-100">
+                <div class="text-center px-4">
+                    <div class="text-3xl md:text-4xl font-black text-secondary mb-2">Tier 3+</div>
+                    <div class="text-gray-500 font-medium">河内/胡志明顶级机房</div>
+                </div>
+                <div class="text-center px-4">
+                    <div class="text-3xl md:text-4xl font-black text-secondary mb-2">99.99%</div>
+                    <div class="text-gray-500 font-medium">网络可用性保障</div>
+                </div>
+                <div class="text-center px-4">
+                    <div class="text-3xl md:text-4xl font-black text-secondary mb-2">3 大</div>
+                    <div class="text-gray-500 font-medium">当地运营商直连</div>
+                </div>
+                <div class="text-center px-4">
+                    <div class="text-3xl md:text-4xl font-black text-secondary mb-2">原生 IP</div>
+                    <div class="text-gray-500 font-medium">跨境电商防风控</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 核心优势 (采用图标在左侧的紧凑列表布局) -->
+    <section class="py-20 bg-lightbg bg-grid-pattern">
+        <div class="container mx-auto px-4 max-w-7xl">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">为什么出海越南选择我们？</h2>
+                <p class="text-gray-600 text-lg">打通中越网络壁垒，提供最具性价比的底层基础设施</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- 优势项 -->
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 flex items-start card-hover">
+                    <div class="bg-red-50 text-primary w-14 h-14 rounded-lg flex items-center justify-center text-2xl flex-shrink-0 mr-6">
+                        <i class="fa-solid fa-network-wired"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">骨干网直连，告别绕路</h3>
+                        <p class="text-gray-600 leading-relaxed">直连越南最大电信运营商 VNPT 与军用级 Viettel 骨干网，广西/广东地区 Ping 值低至 30ms 内，媲美国内跨省速度。</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 flex items-start card-hover">
+                    <div class="bg-blue-50 text-secondary w-14 h-14 rounded-lg flex items-center justify-center text-2xl flex-shrink-0 mr-6">
+                        <i class="fa-solid fa-id-badge"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">纯净原生 IP 资源</h3>
+                        <p class="text-gray-600 leading-relaxed">提供越南本土注册分配的原生 IPv4，被当地网络完美识别，是运营 TikTok 越南区、Shopee、Lazada 本土店的核心利器。</p>
+                    </div>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 flex items-start card-hover">
+                    <div class="bg-orange-50 text-orange-500 w-14 h-14 rounded-lg flex items-center justify-center text-2xl flex-shrink-0 mr-6">
+                        <i class="fa-solid fa-server"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">免备案，业务秒上线</h3>
+                        <p class="text-gray-600 leading-relaxed">无需繁琐的 ICP 备案流程，内容限制少。云服务器支付后系统 3 分钟自动交付，物理机 4 小时内上架，抢占市场先机。</p>
+                    </div>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 flex items-start card-hover">
+                    <div class="bg-purple-50 text-purple-500 w-14 h-14 rounded-lg flex items-center justify-center text-2xl flex-shrink-0 mr-6">
+                        <i class="fa-solid fa-shield-virus"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">游戏级大带宽与防御</h3>
+                        <p class="text-gray-600 leading-relaxed">针对出海东南亚的游戏厂商，提供独享大带宽接入及最高 500G 的本地流量清洗服务，保障业务在遭受攻击时依然平稳。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 热销越南服务器产品 (商务亮色卡片) -->
+    <section class="py-20 bg-white border-t border-gray-100">
+        <div class="container mx-auto px-4 max-w-7xl">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">越南爆款服务器配置</h2>
+                <p class="text-gray-600 text-lg">透明定价，无隐形消费，支持按月/按年灵活支付</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- 产品 1 -->
+                <div class="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden flex flex-col card-hover">
+                    <div class="p-8 border-b border-gray-100 bg-gray-50">
+                        <div class="text-sm font-bold text-secondary mb-2 tracking-widest uppercase">VPS CLOUD</div>
+                        <h3 class="text-2xl font-black text-gray-900 mb-4">越南原生云主机</h3>
+                        <div class="flex items-baseline mb-2">
+                            <span class="text-4xl font-extrabold text-gray-900">¥ 49</span>
+                            <span class="text-gray-500 ml-2 font-medium">/ 月</span>
+                        </div>
+                        <p class="text-gray-500 text-sm">适合个人站长 / 跨境电商起步</p>
+                    </div>
+                    <div class="p-8 flex-1 flex flex-col">
+                        <ul class="space-y-4 mb-8 text-gray-700 font-medium flex-1">
+                            <li class="flex items-center"><i class="fa-solid fa-check text-green-500 mr-3"></i> 2 核 CPU (Intel)</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check text-green-500 mr-3"></i> 2 GB 内存</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check text-green-500 mr-3"></i> 50G 高速 SSD</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check text-green-500 mr-3"></i> 10M 优化带宽</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check text-green-500 mr-3"></i> 1 个原生 IPv4</li>
+                        </ul>
+                        <a href="https://www.1bgp.com/index/server/" class="block w-full bg-white border-2 border-primary text-primary hover:bg-primary hover:text-white text-center py-3 rounded-lg font-bold transition">立即开通</a>
+                    </div>
+                </div>
+
+                <!-- 产品 2 -->
+                <div class="bg-white rounded-2xl shadow-xl border-2 border-secondary overflow-hidden flex flex-col card-hover relative transform md:-translate-y-4">
+                    <div class="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-secondary to-blue-400"></div>
+                    <div class="absolute top-4 right-4 bg-red-100 text-red-600 text-xs font-bold px-3 py-1 rounded-full">企业首选</div>
+                    
+                    <div class="p-8 border-b border-gray-100 bg-white">
+                        <div class="text-sm font-bold text-secondary mb-2 tracking-widest uppercase">DEDICATED SERVER</div>
+                        <h3 class="text-2xl font-black text-gray-900 mb-4">越南独立物理机</h3>
+                        <div class="flex items-baseline mb-2">
+                            <span class="text-4xl font-extrabold text-secondary">¥ 599</span>
+                            <span class="text-gray-500 ml-2 font-medium">/ 月</span>
+                        </div>
+                        <p class="text-gray-500 text-sm">适合大型出海企业 / 高流量业务</p>
+                    </div>
+                    <div class="p-8 flex-1 flex flex-col">
+                        <ul class="space-y-4 mb-8 text-gray-700 font-medium flex-1">
+                            <li class="flex items-center"><i class="fa-solid fa-check text-secondary mr-3"></i> E5-2670 v3 (12核24线程)</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check text-secondary mr-3"></i> 32 GB DDR4 内存</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check text-secondary mr-3"></i> 1TB SSD 固态硬盘</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check text-secondary mr-3"></i> 30M 独享 BGP 宽带</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check text-secondary mr-3"></i> 3 个独立 IPv4</li>
+                        </ul>
+                        <a href="https://www.1bgp.com/index/server/" class="block w-full bg-secondary hover:bg-blue-700 text-white text-center py-3 rounded-lg font-bold transition shadow-lg shadow-blue-500/30">立即选购</a>
+                    </div>
+                </div>
+
+                <!-- 产品 3 -->
+                <div class="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden flex flex-col card-hover">
+                    <div class="p-8 border-b border-gray-100 bg-gray-50">
+                        <div class="text-sm font-bold text-secondary mb-2 tracking-widest uppercase">HIGH BANDWIDTH</div>
+                        <h3 class="text-2xl font-black text-gray-900 mb-4">越南大带宽服务器</h3>
+                        <div class="flex items-baseline mb-2">
+                            <span class="text-4xl font-extrabold text-gray-900">¥ 1599</span>
+                            <span class="text-gray-500 ml-2 font-medium">/ 月</span>
+                        </div>
+                        <p class="text-gray-500 text-sm">适合视频分发 / 直播 / 游戏运营</p>
+                    </div>
+                    <div class="p-8 flex-1 flex flex-col">
+                        <ul class="space-y-4 mb-8 text-gray-700 font-medium flex-1">
+                            <li class="flex items-center"><i class="fa-solid fa-check text-green-500 mr-3"></i> 双路 E5-2680 v4</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check text-green-500 mr-3"></i> 64 GB DDR4 内存</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check text-green-500 mr-3"></i> 480G SSD + 2T HDD</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check text-green-500 mr-3"></i> 100M 独享直连带宽</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check text-green-500 mr-3"></i> 无限流量接入</li>
+                        </ul>
+                        <a href="https://www.1bgp.com/index/server/" class="block w-full bg-white border-2 border-gray-300 text-gray-700 hover:border-gray-800 hover:text-gray-900 text-center py-3 rounded-lg font-bold transition">立即配置</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEO 资讯引流区 (列表样式，区别于前两版的卡片) -->
+    <section class="py-20 bg-lightbg border-t border-gray-200">
+        <div class="container mx-auto px-4 max-w-7xl">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-12">
+                <div>
+                    <h2 class="text-3xl font-extrabold text-gray-900 mb-3">越南服务器出海实战与评测</h2>
+                    <p class="text-gray-600">聚焦东南亚电商、游戏出海，提供最硬核的网络优化干货</p>
+                </div>
+                <a href="https://www.1bgp.com/" class="hidden md:inline-block text-secondary font-bold hover:underline mt-4 md:mt-0">查看全部资讯 <i class="fa-solid fa-chevron-right ml-1 text-xs"></i></a>
+            </div>
+            
+            <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+                <!-- 列表项 1 -->
+                <a href="https://www.1bgp.com/" class="block p-6 border-b border-gray-100 hover:bg-blue-50 transition group">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between">
+                        <div class="md:w-3/4">
+                            <div class="flex items-center mb-2">
+                                <span class="bg-red-100 text-red-600 text-xs font-bold px-2 py-0.5 rounded mr-3">热门</span>
+                                <span class="text-sm text-gray-400 font-medium"><i class="fa-regular fa-calendar mr-1"></i> 2026-06-15</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 group-hover:text-secondary transition">做越南 TikTok 带货，为什么要坚持使用越南原生 IP 服务器？</h3>
+                            <p class="text-gray-600 text-sm line-clamp-1">解析广播 IP 与原生 IP 的底层差异，揭秘 TikTok 越南区零播放与限流的真实原因，教你搭建防关联的高质量网络环境...</p>
+                        </div>
+                        <div class="hidden md:flex text-secondary opacity-0 group-hover:opacity-100 transition-opacity transform translate-x-4 group-hover:translate-x-0">
+                            <i class="fa-solid fa-arrow-right text-xl"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- 列表项 2 -->
+                <a href="https://www.1bgp.com/" class="block p-6 border-b border-gray-100 hover:bg-blue-50 transition group">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between">
+                        <div class="md:w-3/4">
+                            <div class="flex items-center mb-2">
+                                <span class="text-sm text-gray-400 font-medium"><i class="fa-regular fa-calendar mr-1"></i> 2026-06-12</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 group-hover:text-secondary transition">越南三大运营商 VNPT、Viettel、FPT 机房线路全景对比与选择指南</h3>
+                            <p class="text-gray-600 text-sm line-clamp-1">出海越南该选哪个机房？本文详细测评了越南三大电信巨头到中国大陆的去程与回程路由，对比丢包率与晚高峰延迟表现...</p>
+                        </div>
+                        <div class="hidden md:flex text-secondary opacity-0 group-hover:opacity-100 transition-opacity transform translate-x-4 group-hover:translate-x-0">
+                            <i class="fa-solid fa-arrow-right text-xl"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- 列表项 3 -->
+                <a href="https://www.1bgp.com/" class="block p-6 border-b border-gray-100 hover:bg-blue-50 transition group">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between">
+                        <div class="md:w-3/4">
+                            <div class="flex items-center mb-2">
+                                <span class="text-sm text-gray-400 font-medium"><i class="fa-regular fa-calendar mr-1"></i> 2026-06-08</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 group-hover:text-secondary transition">游戏出海东南亚：越南节点与香港节点、新加坡节点的性价比综合评估</h3>
+                            <p class="text-gray-600 text-sm line-clamp-1">从服务器租用成本、防御带宽单价、周边国家覆盖率三个维度，深度剖析为什么越来越多游戏厂商将核心业务迁移至越南河内机房...</p>
+                        </div>
+                        <div class="hidden md:flex text-secondary opacity-0 group-hover:opacity-100 transition-opacity transform translate-x-4 group-hover:translate-x-0">
+                            <i class="fa-solid fa-arrow-right text-xl"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- 列表项 4 -->
+                <a href="https://www.1bgp.com/" class="block p-6 hover:bg-blue-50 transition group">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between">
+                        <div class="md:w-3/4">
+                            <div class="flex items-center mb-2">
+                                <span class="text-sm text-gray-400 font-medium"><i class="fa-regular fa-calendar mr-1"></i> 2026-06-05</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2 group-hover:text-secondary transition">越南云服务器到国内大陆的延迟一般是多少？如何通过 BGP 优化？</h3>
+                            <p class="text-gray-600 text-sm line-clamp-1">实测数据显示，通过广西出口直连的越南服务器，Ping 值可控制在 30-50ms 内。本文讲解如何利用 BGP 多线技术规避国际出口拥堵...</p>
+                        </div>
+                        <div class="hidden md:flex text-secondary opacity-0 group-hover:opacity-100 transition-opacity transform translate-x-4 group-hover:translate-x-0">
+                            <i class="fa-solid fa-arrow-right text-xl"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="mt-6 text-center md:hidden">
+                <a href="https://www.1bgp.com/" class="inline-block border border-gray-300 text-gray-700 hover:bg-gray-50 px-6 py-2 rounded-md font-bold">浏览更多文章</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 底部页脚 (深色沉稳版) -->
+    <footer class="bg-darkbg text-gray-400 pt-16 pb-8">
+        <div class="container mx-auto px-4 max-w-7xl">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
+                <!-- 品牌信息 -->
+                <div class="md:col-span-1">
+                    <a href="https://www.1bgp.com/" class="text-3xl font-extrabold text-white mb-4 inline-block flex items-center">
+                        <span class="text-primary mr-1">1</span>BGP
+                    </a>
+                    <p class="text-sm mb-6 leading-relaxed">作为领先的亚太区数据中心服务商，我们致力于为企业提供低延迟、高可用的越南服务器租用服务，助您轻松打通东南亚跨境业务。</p>
+                    <div class="flex space-x-4">
+                        <a href="https://t.me/twbyte_tom" target="_blank" class="w-10 h-10 rounded-lg bg-gray-800 flex items-center justify-center hover:bg-secondary text-white transition"><i class="fa-brands fa-telegram text-lg"></i></a>
+                    </div>
+                </div>
+                
+                <!-- 快捷链接 -->
+                <div>
+                    <h4 class="text-white font-bold mb-6 text-lg">越南专区</h4>
+                    <ul class="space-y-3 text-sm font-medium">
+                        <li><a href="https://www.1bgp.com/index/server/" class="hover:text-white transition">越南云主机 VPS</a></li>
+                        <li><a href="https://www.1bgp.com/index/server/" class="hover:text-white transition">越南独立物理机</a></li>
+                        <li><a href="https://www.1bgp.com/index/server/" class="hover:text-white transition">大带宽视频专区</a></li>
+                        <li><a href="https://www.1bgp.com/index/server/" class="hover:text-white transition">原生 IP 站群服务器</a></li>
+                    </ul>
+                </div>
+                
+                <!-- 客户支持 -->
+                <div>
+                    <h4 class="text-white font-bold mb-6 text-lg">客户服务</h4>
+                    <ul class="space-y-3 text-sm font-medium">
+                        <li><a href="https://www.1bgp.com/user/index/login.html" class="hover:text-white transition">登录管理控制台</a></li>
+                        <li><a href="https://www.1bgp.com/user/index/register.html" class="hover:text-white transition">免费注册账号</a></li>
+                        <li><a href="https://t.me/twbyte_tom" target="_blank" class="hover:text-white transition">7x24小时工单/TG支持</a></li>
+                        <li><a href="https://www.1bgp.com/" class="hover:text-white transition">SLA 协议与服务条款</a></li>
+                    </ul>
+                </div>
+                
+                <!-- 联系方式 -->
+                <div>
+                    <h4 class="text-white font-bold mb-6 text-lg">联系我们</h4>
+                    <ul class="space-y-4 text-sm font-medium">
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-location-dot mt-1 mr-3 text-gray-500"></i>
+                            <span>东南亚节点：越南(河内/胡志明), 新加坡, 马来西亚</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fa-solid fa-phone mr-3 text-gray-500"></i>
+                            <span class="text-white">+1 (256) 7331188</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fa-regular fa-envelope mr-3 text-gray-500"></i>
+                            <span class="text-white">support@1bgp.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm font-medium">
+                <p>&copy; 2026 OneBGP. All Rights Reserved.</p>
+                <div class="mt-4 md:mt-0 space-x-3 flex items-center">
+                    <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded text-xs">VNPT</span>
+                    <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded text-xs">Viettel</span>
+                    <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded text-xs">Native IP</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
